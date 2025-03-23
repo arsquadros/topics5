@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 import logging
 import os
 
-from app.experts.agent_churn.tools import generate_report_tool, suggest_action_plan_tool, validate_user_tool
+from app.experts.agent_churn.tools import generate_report_tool, suggest_action_plan_tool
 
 from langchain.chains import ConversationalRetrievalChain
 
