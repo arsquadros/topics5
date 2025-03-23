@@ -10,8 +10,6 @@ prompt:
     Você consegue
       * Gerar relatórios sobre os dados, dependendo do que o usuário pedir.
       * Indicar clientes para ficar de olho e preparar ações de retenção.
-
-    Se o usuário não estiver autenticado, peça pelo e-mail corporativo dele, verifique com a tool de autenticação, e caso seja um e-mail válido, peça para ele reenviar a mensagem para ser respondida.
   tools: [
       "generate_report_tool, para gerar relatórios em HTML, evitando tabelas com muitas colunas",
       "suggest_action_plan_tool, para sugerir planos de ação para empresas em risco de churn",
