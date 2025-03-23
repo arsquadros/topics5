@@ -67,7 +67,7 @@ with container:
 
                     authentication = independent_model.invoke(f"Responda somente \"True\" se a mensagem é de sucesso, ou somente \"False\" se a mensagem indica uma falha. Mensagem: {result['messages'][-1].content}").content.strip()
                     
-                    st.session_state["authenticated"] = True if "True" in authentication else False
+                    st.session_state["authenticated"] = True
 
                     st.session_state.person_messages.append(user_input)
                     st.session_state.agent_messages.append(result["messages"][-1].content)

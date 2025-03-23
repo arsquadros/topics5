@@ -165,15 +165,18 @@ def validate_user_tool(conversation_chain=None) -> StructuredTool:
         logging.info(f"Function validate_user_tool called with email={email} on agent.")
         try:
             found = False
-
+            print("Accessing filepath")
             df = pd.read_csv("app/experts/agent_churn/documents/usuarios_chatbot.csv")
+            print("Accessed filepath")
             
             for e in df["E-mail"].tolist():
                 if e == email:
                     found = True
                     break
+            print("Status finding user:", found)
         except Exception as e:
             logging.error(f"ERROR: could not validate email '{email}'. Error '{e}' Returning default answer.")
+            print("Error finding user")
             found = False
         else:
             logging.info(f"Validação de e-mail: {found}")
