@@ -1,0 +1,881 @@
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Creating churn_agent...
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Building new FAISS index...
+INFO:app.vectors.loader:Carregando PDFs do diretório: app/experts/agent_churn/documents/RAG
+INFO:app.vectors.loader:1 arquivos PDF encontrados.
+INFO:app.vectors.loader:Convertendo PDFs para texto...
+INFO:app.vectors.loader:Dividindo os documentos em chunks...
+INFO:app.vectors.loader:Processando PDF: app/experts/agent_churn/documents/RAG\rag.pdf
+INFO:docling.document_converter:Going to convert document batch...
+INFO:docling.models.factories.base_factory:Loading plugin 'docling_defaults'
+INFO:docling.models.factories:Registered ocr engines: ['easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+INFO:docling.utils.accelerator_utils:Accelerator device: 'cpu'
+INFO:docling.utils.accelerator_utils:Accelerator device: 'cpu'
+INFO:docling.utils.accelerator_utils:Accelerator device: 'cpu'
+INFO:docling.models.factories.base_factory:Loading plugin 'docling_defaults'
+INFO:docling.models.factories:Registered picture descriptions: ['vlm', 'api']
+INFO:docling.pipeline.base_pipeline:Processing document rag.pdf
+INFO:docling.document_converter:Finished converting document rag.pdf in 21.75 sec.
+INFO:app.vectors.loader:PDF convertido para texto: app/experts/agent_churn/documents/RAG\rag.pdf
+INFO:app.vectors.loader:Divisão concluída. 5 chunks gerados.
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Building new FAISS index...
+INFO:app.vectors.loader:Carregando PDFs do diretório: app/experts/agent_churn/documents/RAG
+INFO:app.vectors.loader:1 arquivos PDF encontrados.
+INFO:app.vectors.loader:Convertendo PDFs para texto...
+INFO:app.vectors.loader:Dividindo os documentos em chunks...
+INFO:app.vectors.loader:Processando PDF: app/experts/agent_churn/documents/RAG\rag.pdf
+INFO:docling.document_converter:Going to convert document batch...
+INFO:docling.models.factories.base_factory:Loading plugin 'docling_defaults'
+INFO:docling.models.factories:Registered ocr engines: ['easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+INFO:docling.utils.accelerator_utils:Accelerator device: 'cpu'
+INFO:docling.utils.accelerator_utils:Accelerator device: 'cpu'
+INFO:docling.utils.accelerator_utils:Accelerator device: 'cpu'
+INFO:docling.models.factories.base_factory:Loading plugin 'docling_defaults'
+INFO:docling.models.factories:Registered picture descriptions: ['vlm', 'api']
+INFO:docling.pipeline.base_pipeline:Processing document rag.pdf
+INFO:docling.document_converter:Finished converting document rag.pdf in 6.26 sec.
+INFO:app.vectors.loader:PDF convertido para texto: app/experts/agent_churn/documents/RAG\rag.pdf
+INFO:app.vectors.loader:Divisão concluída. 5 chunks gerados.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:root:FAISS store not found. Creating new store...
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Building new FAISS index...
+INFO:app.vectors.loader:Carregando PDFs do diretório: app/experts/agent_churn/documents/RAG
+INFO:app.vectors.loader:1 arquivos PDF encontrados.
+INFO:app.vectors.loader:Convertendo PDFs para texto...
+INFO:app.vectors.loader:Dividindo os documentos em chunks...
+INFO:app.vectors.loader:Processando PDF: app/experts/agent_churn/documents/RAG\rag.pdf
+INFO:docling.document_converter:Going to convert document batch...
+INFO:docling.models.factories.base_factory:Loading plugin 'docling_defaults'
+INFO:docling.models.factories:Registered ocr engines: ['easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+INFO:docling.utils.accelerator_utils:Accelerator device: 'cpu'
+INFO:docling.utils.accelerator_utils:Accelerator device: 'cpu'
+INFO:docling.utils.accelerator_utils:Accelerator device: 'cpu'
+INFO:docling.models.factories.base_factory:Loading plugin 'docling_defaults'
+INFO:docling.models.factories:Registered picture descriptions: ['vlm', 'api']
+INFO:docling.pipeline.base_pipeline:Processing document rag.pdf
+INFO:docling.document_converter:Finished converting document rag.pdf in 5.61 sec.
+INFO:app.vectors.loader:PDF convertido para texto: app/experts/agent_churn/documents/RAG\rag.pdf
+INFO:app.vectors.loader:Divisão concluída. 5 chunks gerados.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:root:FAISS store not found. Creating new store...
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Novo índice FAISS criado com sucesso.
+INFO:root:FAISS store saved to 'app/faiss_store'.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=por_favor_insira_seu_email_aqui on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=por_favor_insira_seu_email_aqui on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=insira_seu_email_aqui on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=insira_seu_email_aqui on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 524 "
+INFO:groq._base_client:Retrying request to /openai/v1/chat/completions in 0.453524 seconds
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=arthur@empresa.com.br on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=pedrosantos@empresa.com on agent.
+INFO:root:Validação de e-mail: True
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function generate_report_tool called with query=relatório de retenção de clientes on agent.
+INFO:root:Function generate_report_tool called with query=plano de ação para empresa em risco de churn on agent.
+ERROR:root:ERROR: could generate report for query 'relatório de retenção de clientes'. Error 'Missing some input keys: {'chat_history', 'question'}' Returning default answer.
+ERROR:root:ERROR: could generate report for query 'plano de ação para empresa em risco de churn'. Error 'Missing some input keys: {'chat_history', 'question'}' Returning default answer.
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=seu_email_aqui on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=inserir_email_aqui on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=pedrosantos@empresa.com on agent.
+INFO:root:Validação de e-mail: True
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=pedrosantos@empresa.com on agent.
+INFO:root:Validação de e-mail: True
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=inserir_email_aqui on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=pedrosantos@empresa.com on agent.
+INFO:root:Validação de e-mail: True
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=por favor, forneça seu e-mail corporativo on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=pedrosantos@empresa.com on agent.
+INFO:root:Validação de e-mail: True
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+INFO:groq._base_client:Retrying request to /openai/v1/chat/completions in 0.466470 seconds
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=usuario@example.com on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=pedrosantos@empresa.com on agent.
+INFO:root:Validação de e-mail: True
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=seu_email_corporativo@empresa.com on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=pedrosantos@empresa.com on agent.
+INFO:root:Validação de e-mail: True
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=usuario@example.com on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=usuario2@example.com on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=usuario3@example.com on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=pedrosantos@empresa.com on agent.
+INFO:root:Validação de e-mail: True
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=usuario@example.com on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=email_fornecido_pelo_usuario on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=pedrosantos@empresa.com on agent.
+INFO:root:Validação de e-mail: True
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=usuario@empresa.com on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=usuario2@empresa.com on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=usuario3@empresa.com on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=usuario4@empresa.com on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=usuario5@empresa.com on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=usuario6@empresa.com on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:groq._base_client:Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=usuario7@empresa.com on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:groq._base_client:Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=usuario8@empresa.com on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:groq._base_client:Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=usuario9@empresa.com on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:groq._base_client:Retrying request to /openai/v1/chat/completions in 9.000000 seconds
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=usuario10@empresa.com on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:groq._base_client:Retrying request to /openai/v1/chat/completions in 9.000000 seconds
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=usuario11@empresa.com on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:groq._base_client:Retrying request to /openai/v1/chat/completions in 10.000000 seconds
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=usuario12@empresa.com on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:groq._base_client:Retrying request to /openai/v1/chat/completions in 9.000000 seconds
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=email_do_usuario on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=pedrosantos@empresa.com on agent.
+INFO:root:Validação de e-mail: True
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=seu_email_aqui on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=pedrosantos@empresa.com on agent.
+INFO:root:Validação de e-mail: True
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=por_favor_insira_seu_email_aqui on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=pedrosantos@empresa.com on agent.
+INFO:root:Validação de e-mail: True
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=seu_email_corporativo@aqui.com on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=seu_email_corporativo@aqui.com on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=seu_email_corporativo@aqui.com on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function generate_report_tool called with query=Resumo das últimas conversas dos clientes on agent.
+ERROR:root:ERROR: could generate report for query 'Resumo das últimas conversas dos clientes'. Error 'Missing some input keys: {'chat_history', 'question'}' Returning default answer.
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=coloque_aqui_o_email_criado_para_autenticar_o_usuario on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=seu_email_corporativo@empresa.com on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+INFO:groq._base_client:Retrying request to /openai/v1/chat/completions in 0.431456 seconds
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 524 "
+INFO:groq._base_client:Retrying request to /openai/v1/chat/completions in 0.961726 seconds
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=example@example.com on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function generate_report_tool called with query=riscos de churn dos clientes on agent.
+ERROR:root:ERROR: could generate report for query 'riscos de churn dos clientes'. Error 'Missing some input keys: {'chat_history', 'question'}' Returning default answer.
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=seu_email_corporativo@exemplo.com on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=pedrosantos@empresa.com on agent.
+INFO:root:Validação de e-mail: True
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=seu_email_corporativo@aqui.com on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=seu_email_corporativo@aqui.com on agent.
+INFO:root:Validação de e-mail: False
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 524 "
+INFO:groq._base_client:Retrying request to /openai/v1/chat/completions in 0.421750 seconds
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=pedrosantos@empresa.com on agent.
+INFO:root:Validação de e-mail: True
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+INFO:groq._base_client:Retrying request to /openai/v1/chat/completions in 0.419521 seconds
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function generate_report_tool called with query=risco de churn dos clientes on agent.
+ERROR:root:ERROR: could generate report for query 'risco de churn dos clientes'. Error 'Missing some input keys: {'question', 'chat_history'}' Returning default answer.
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+INFO:groq._base_client:Retrying request to /openai/v1/chat/completions in 0.375403 seconds
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+INFO:groq._base_client:Retrying request to /openai/v1/chat/completions in 0.482145 seconds
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=pedrosantos@empresa.com on agent.
+INFO:root:Validação de e-mail: True
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=pedrosantos@empresa.com on agent.
+INFO:root:Validação de e-mail: True
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function generate_report_tool called with query=selecionar clientes com alto risco de churn com base nas métricas de usabilidade e interações passadas. on agent.
+ERROR:root:ERROR: could generate report for query 'selecionar clientes com alto risco de churn com base nas métricas de usabilidade e interações passadas.'. Error 'Missing some input keys: {'question', 'chat_history'}' Returning default answer.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function generate_report_tool called with query=Risco de churn dos clientes on agent.
+ERROR:root:ERROR: could generate report for query 'Risco de churn dos clientes'. Error 'Missing some input keys: {'chat_history', 'question'}' Returning default answer.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function generate_report_tool called with query=clientes em risco de churn on agent.
+ERROR:root:ERROR: could generate report for query 'clientes em risco de churn'. Error 'Missing some input keys: {'question', 'chat_history'}' Returning default answer.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function generate_report_tool called with query=relatório de risco de churn dos clientes on agent.
+ERROR:root:ERROR: could generate report for query 'relatório de risco de churn dos clientes'. Error 'Missing some input keys: {'chat_history', 'question'}' Returning default answer.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function generate_report_tool called with query=relatório de risco de churn dos clientes on agent.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Resposta de relatório da query 'relatório de risco de churn dos clientes': {'question': '\n                Gere um relatório para a query a seguir a partir dos dados que serão passados no final.\n                Os dados são em formato CSV, e o relatório deve ser gerado em markdown.\n\n                [BEGIN QUERY]\n                relatório de risco de churn dos clientes\n                [END QUERY]\n\n                [BEGIN DATA]\n                [begin file 1]\n\nNome do Cliente,AÃ§Ã£o Recomendada,Prioridade,Data de Vencimento,Status\nSeguros Beta,Oferecer desconto na renovaÃ§Ã£o,Alta,2023-11-30,Pendente\nLoja Moda Linda,Realizar visita tÃ©cnica para otimizaÃ§Ã£o do sistema,MÃ©dia,2023-12-15,Em andamento\nLivraria Saber,Priorizar suporte para resoluÃ§Ã£o de problemas de acesso,Alta,2023-12-01,Pendente\nDigital World,Oferecer treinamento avanÃ§ado sobre integraÃ§Ã£o com API,MÃ©dia,2023-12-20,Agendado\nFarmÃ¡cia SaÃºde Total,Apresentar estudo de caso de sucesso com soluÃ§Ã£o similar,Baixa,2024-01-15,Pendente\nInstituto Aprender,Agendar reuniÃ£o para discutir novas necessidades,MÃ©dia,2023-12-10,Agendado\n\n[end file 1][begin file 2]\n\nNome do Cliente,FuncionÃ¡rio ResponsÃ¡vel,Tickets Abertos no Ãšltimo MÃªs,Setor do Cliente,Tempo MÃ©dio de Resposta do Suporte (horas),Taxa de RenovaÃ§Ã£o de Contrato (%),SatisfaÃ§Ã£o com Treinamento (%)\nBanco Alpha,Ana Silva,2,Financeiro,2,90,95\nSeguros Beta,Carlos Oliveira,5,Financeiro,5,70,80\nInvestimentos Gama,Mariana Souza,1,Financeiro,1,95,98\nFinanceira Delta,Pedro Santos,3,Financeiro,3,85,90\nSupermercado Estrela,Juliana Pereira,0,Varejo,1,98,99\nLoja Moda Linda,Ricardo Costa,4,Varejo,4,80,85\nEletrodomÃ©sticos Novo Lar,Fernanda Rodrigues,2,Varejo,2,92,96\nLivraria Saber,Lucas GonÃ§alves,6,Varejo,6,75,82\nTech Solutions,Gustavo Almeida,1,Tecnologia,1,94,97\nInova Sistemas,Camila Ferreira,3,Tecnologia,3,88,92\nDigital World,Rafael Barbosa,5,Tecnologia,5,82,88\nCode Masters,Beatriz Castro,4,Tecnologia,4,78,85\nHospital Vida Plena,Bruno Ribeiro,0,SaÃºde,1,96,98\nClÃ\xadnica Bem Estar,LetÃ\xadcia Martins,2,SaÃºde,2,90,94\nLaboratÃ³rio Exames JÃ¡,Thiago Nunes,3,SaÃºde,3,85,90\nFarmÃ¡cia SaÃºde Total,Isabela Cavalcanti,5,SaÃºde,5,80,86\nUniversidade Saber Mais,Diego Rocha,1,EducaÃ§Ã£o,1,95,97\nEscola Crescer,Aline Cunha,2,EducaÃ§Ã£o,2,92,95\nInstituto Aprender,Felipe Melo,4,EducaÃ§Ã£o,4,88,91\nCursos Online Futuro,Vanessa Guedes,3,EducaÃ§Ã£o,3,82,88\n\n[end file 2][begin file 3]\n\nNome do Cliente,Data da InteraÃ§Ã£o,Tipo de InteraÃ§Ã£o,DescriÃ§Ã£o da InteraÃ§Ã£o,FuncionÃ¡rio ResponsÃ¡vel\nBanco Alpha,2024-10-26,E-mail,ReuniÃ£o de acompanhamento do projeto,Ana Silva\nSeguros Beta,2024-10-27,Telefone,Suporte tÃ©cnico para integraÃ§Ã£o de sistema,Carlos Oliveira\nInvestimentos Gama,2024-10-28,Chat,DÃºvidas sobre nova funcionalidade,Mariana Souza\nFinanceira Delta,2024-10-29,E-mail,Envio de relatÃ³rio de desempenho,Pedro Santos\nSupermercado Estrela,2024-10-30,Chat,SolicitaÃ§Ã£o de treinamento adicional,Juliana Pereira\nLoja Moda Linda,2024-10-31,Telefone,ReclamaÃ§Ã£o sobre lentidÃ£o do sistema,Ricardo Costa\nEletrodomÃ©sticos Novo Lar,2024-11-01,E-mail,ApresentaÃ§Ã£o de novas soluÃ§Ãµes,Fernanda Rodrigues\nLivraria Saber,2024-11-02,Chat,Problemas com acesso Ã\xa0 base de dados,Lucas GonÃ§alves\nTech Solutions,2024-11-03,Telefone,NegociaÃ§Ã£o para renovaÃ§Ã£o de contrato,Gustavo Almeida\nInova Sistemas,2024-11-04,E-mail,SolicitaÃ§Ã£o de suporte urgente,Camila Ferreira\nDigital World,2024-11-05,Chat,DÃºvidas sobre integraÃ§Ã£o com API,Rafael Barbosa\nCode Masters,2024-11-06,Telefone,ReclamaÃ§Ã£o sobre tempo de resposta do suporte,Beatriz Castro\nHospital Vida Plena,2024-11-07,E-mail,ApresentaÃ§Ã£o de nova ferramenta de gestÃ£o,Bruno Ribeiro\nClÃ\xadnica Bem Estar,2024-11-08,Chat,SolicitaÃ§Ã£o de informaÃ§Ãµes sobre treinamento,LetÃ\xadcia Martins\nLaboratÃ³rio Exames JÃ¡,2024-11-09,Telefone,Problemas com acesso ao sistema de relatÃ³rios,Thiago Nunes\nFarmÃ¡cia SaÃºde Total,2024-11-10,E-mail,Envio de proposta para novo projeto,Isabela Cavalcanti\nUniversidade Saber Mais,2024-11-11,Chat,DÃºvidas sobre integraÃ§Ã£o com plataforma EAD,Diego Rocha\nEscola Crescer,2024-11-12,Telefone,SolicitaÃ§Ã£o de suporte para configuraÃ§Ã£o de sistema,Aline Cunha\nInstituto Aprender,2024-11-13,E-mail,ReuniÃ£o para discutir resultados do projeto,Felipe Melo\nCursos Online Futuro,2024-11-14,Chat,DÃºvidas sobre acesso a novos conteÃºdos,Vanessa Guedes\n\n[end file 3]\n                [END DATA]\n            ', 'chat_history': [], 'answer': '# Relatório de Risco de Churn dos Clientes\n\n## Clientes com Ação Recomendada\n\n| Nome do Cliente          | Ação Recomendada                                           | Prioridade | Data de Vencimento | Status       |\n|-------------------------|-----------------------------------------------------------|------------|--------------------|--------------|\n| Seguros Beta            | Oferecer desconto na renovação                            | Alta       | 2023-11-30         | Pendente     |\n| Loja Moda Linda         | Realizar visita técnica para otimização do sistema       | Média      | 2023-12-15         | Em andamento  |\n| Livraria Saber          | Priorizar suporte para resolução de problemas de acesso   | Alta       | 2023-12-01         | Pendente     |\n| Digital World           | Oferecer treinamento avançado sobre integração com API    | Média      | 2023-12-20         | Agendado      |\n| Farmácia Saúde Total    | Apresentar estudo de caso de sucesso com solução similar  | Baixa      | 2024-01-15         | Pendente     |\n| Instituto Aprender      | Agendar reunião para discutir novas necessidades          | Média      | 2023-12-10         | Agendado      |\n\n## Análise de Suporte e Satisfação dos Clientes\n\n| Nome do Cliente         | Funcionário Responsável | Tickets Abertos no Último Mês | Setor do Cliente | Tempo Médio de Resposta do Suporte (horas) | Taxa de Renovação de Contrato (%) | Satisfação com Treinamento (%) |\n|-------------------------|-------------------------|--------------------------------|------------------|---------------------------------------------|-------------------------------------|---------------------------------|\n| Banco Alpha             | Ana Silva               | 2                              | Financeiro       | 2                                           | 90                                  | 95                              |\n| Seguros Beta            | Carlos Oliveira         | 5                              | Financeiro       | 5                                           | 70                                  | 80                              |\n| Investimentos Gama      | Mariana Souza           | 1                              | Financeiro       | 1                                           | 95                                  | 98                              |\n| Financeira Delta        | Pedro Santos            | 3                              | Financeiro       | 3                                           | 85                                  | 90                              |\n| Supermercado Estrela    | Juliana Pereira         | 0                              | Varejo           | 1                                           | 98                                  | 99                              |\n| Loja Moda Linda         | Ricardo Costa           | 4                              | Varejo           | 4                                           | 80                                  | 85                              |\n| Eletrodomésticos Novo Lar| Fernanda Rodrigues      | 2                              | Varejo           | 2                                           | 92                                  | 96                              |\n| Livraria Saber          | Lucas Gonçalves         | 6                              | Varejo           | 6                                           | 75                                  | 82                              |\n| Tech Solutions          | Gustavo Almeida         | 1                              | Tecnologia       | 1                                           | 94                                  | 97                              |\n| Inova Sistemas          | Camila Ferreira         | 3                              | Tecnologia       | 3                                           | 88                                  | 92                              |\n| Digital World           | Rafael Barbosa          | 5                              | Tecnologia       | 5                                           | 82                                  | 88                              |\n| Code Masters            | Beatriz Castro          | 4                              | Tecnologia       | 4                                           | 78                                  | 85                              |\n| Hospital Vida Plena     | Bruno Ribeiro           | 0                              | Saúde            | 1                                           | 96                                  | 98                              |\n| Clínica Bem Estar      | Letícia Martins         | 2                              | Saúde            | 2                                           | 90                                  | 94                              |\n| Laboratório Exames Já   | Thiago Nunes           | 3                              | Saúde            | 3                                           | 85                                  | 90                              |\n| Farmácia Saúde Total    | Isabela Cavalcanti      | 5                              | Saúde            | 5                                           | 80                                  | 86                              |\n| Universidade Saber Mais  | Diego Rocha            | 1                              | Educação         | 1                                           | 95                                  | 97                              |\n| Escola Crescer          | Aline Cunha            | 2                              | Educação         | 2                                           | 92                                  | 95                              |\n| Instituto Aprender      | Felipe Melo            | 4                              | Educação         | 4                                           | 88                                  | 91                              |\n| Cursos Online Futuro    | Vanessa Guedes         | 3                              | Educação         | 3                                           | 82                                  | 88                              |\n\n## Considerações Finais\n- **Clientes em Risco**: Seguros Beta e Livraria Saber possuem alta prioridade em ações recomendadas devido ao maior número de tickets abertos e taxas de renovação de contrato abaixo da média.\n- **Ações Proativas**: É recomendado priorizar ações para melhorar a satisfação de clientes com tickets acima da média e baixa taxa de renovação.', 'source_documents': [Document(id='99a8c71d-b921-41b3-b7cd-a6781d1e1e00', metadata={'source': 'app/experts/agent_churn/documents/RAG\\rag.pdf'}, page_content='- **Consultoria Estratégica:**\n- * **Transformação Digital:** Auxiliamos empresas a navegar pela transformação digital, identificando oportunidades de otimização de processos, implementação de novas tecnologias e desenvolvimento de modelos de negócios inovadores.\n- * **Estratégia de TI:** Desenvolvemos planos estratégicos de TI alinhados aos objetivos de negócios de nossos clientes, garantindo que a tecnologia seja um facilitador para o crescimento e sucesso da empresa.\n- * **Gestão de Projetos:** Gerenciamos projetos de TI de ponta a ponta, desde o planejamento e execução até o monitoramento e entrega, garantindo que os projetos sejam concluídos dentro do prazo, orçamento e escopo definidos.\n- **Desenvolvimento de Soluções Personalizadas:**\n- * **Desenvolvimento de Software:** Criamos softwares personalizados para atender às necessidades específicas de cada cliente, utilizando as mais recentes tecnologias e metodologias de desenvolvimento.')]}
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=pedrosantos@empresa.com on agent.
+INFO:root:Validação de e-mail: True
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function validate_user_tool called with email=pedrosantos@empresa.com on agent.
+INFO:root:Validação de e-mail: True
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model...
+INFO:root:Creating supervisor...
+INFO:root:Supervisor created successfully!
