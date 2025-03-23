@@ -9,4 +9,4 @@ streamlit_chat
 docling
 sentence-transformers
 faiss-cpu
-pdf-kit
+pdfkit
