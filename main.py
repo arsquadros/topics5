@@ -1,4 +1,3 @@
-from app.supervisor.supervisor import supervisor
 from app.experts.agent_churn.churn_agent import churn_agent
 
 import streamlit as st
@@ -45,48 +44,48 @@ with container:
         config = {"configurable": {"thread_id": f"{uuid4()}"}}
 
         if submit_button:
-            if not st.session_state["authenticated"] and not st.session_state["email_asked"]:
-                try:
-                    input_content = {"messages": [{"role": "user", "content": "Usuário não autenticado. Peça pelo e-mail corporativo e para enviar a mensagem novamente depois de autenticado."}]}
+            #if not st.session_state["authenticated"] and not st.session_state["email_asked"]:
+            #    try:
+            #        input_content = {"messages": [{"role": "user", "content": "Usuário não autenticado. Peça pelo e-mail corporativo e para enviar a mensagem novamente depois de autenticado."}]}
 
-                    result = churn_agent.invoke(input_content)
+            #        result = churn_agent.invoke(input_content)
 
-                    st.session_state["email_asked"] = True
+            #        st.session_state["email_asked"] = True
 
-                    st.session_state.person_messages.append(user_input)
-                    st.session_state.agent_messages.append(result["messages"][-1].content)
+            #        st.session_state.person_messages.append(user_input)
+            #        st.session_state.agent_messages.append(result["messages"][-1].content)
 
-                except Exception as e:
-                    st.error(f"Erro ao processar a mensagem. Por favor, tente novamente. {e}")
-                    st.stop()
-            elif not st.session_state["authenticated"] and st.session_state["email_asked"]:
-                try:
-                    input_content = {"messages": [{"role": "user", "content": f"E-mail: {user_input}"}]}
+            #    except Exception as e:
+            #        st.error(f"Erro ao processar a mensagem. Por favor, tente novamente. {e}")
+            #        st.stop()
+            #elif not st.session_state["authenticated"] and st.session_state["email_asked"]:
+            #    try:
+            #        input_content = {"messages": [{"role": "user", "content": f"E-mail: {user_input}"}]}
 
-                    result = churn_agent.invoke(input_content)
+            #        result = churn_agent.invoke(input_content)
 
-                    authentication = independent_model.invoke(f"Responda somente \"True\" se a mensagem é de sucesso, ou somente \"False\" se a mensagem indica uma falha. Mensagem: {result['messages'][-1].content}").content.strip()
+            #        authentication = independent_model.invoke(f"Responda somente \"True\" se a mensagem é de sucesso, ou somente \"False\" se a mensagem indica uma falha. Mensagem: {result['messages'][-1].content}").content.strip()
                     
-                    st.session_state["authenticated"] = True
+            #        st.session_state["authenticated"] = True
 
-                    st.session_state.person_messages.append(user_input)
-                    st.session_state.agent_messages.append(result["messages"][-1].content)
+            #        st.session_state.person_messages.append(user_input)
+            #        st.session_state.agent_messages.append(result["messages"][-1].content)
 
-                except Exception as e:
-                    st.error(f"Erro ao processar a mensagem. Por favor, tente novamente. {e}")
-                    st.stop()
-            else:
-                try:
-                    input_content = {"messages": [{"role": "user", "content": f"Responda a seguinte requisição: {user_input}"}]}
+            #    except Exception as e:
+            #        st.error(f"Erro ao processar a mensagem. Por favor, tente novamente. {e}")
+            #        st.stop()
+            #else:
+            try:
+                input_content = {"messages": [{"role": "user", "content": f"Responda a seguinte requisição: {user_input}"}]}
 
-                    result = churn_agent.invoke(input_content)
+                result = churn_agent.invoke(input_content)
 
-                    st.session_state.person_messages.append(user_input)
-                    st.session_state.agent_messages.append(result["messages"][-1].content)
+                st.session_state.person_messages.append(user_input)
+                st.session_state.agent_messages.append(result["messages"][-1].content)
 
-                except Exception as e:
-                    st.error(f"Erro ao processar a mensagem. Por favor, tente novamente. {e}")
-                    st.stop()
+            except Exception as e:
+                st.error(f"Erro ao processar a mensagem. Por favor, tente novamente. {e}")
+                st.stop()
             
 
 with response_container:

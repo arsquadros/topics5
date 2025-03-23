@@ -38,7 +38,7 @@ _chain = ConversationalRetrievalChain.from_llm(llm=model, retriever=_r, return_s
 tools = [
     generate_report_tool(_chain),
     suggest_action_plan_tool(_chain),
-    validate_user_tool(_chain)
+    #validate_user_tool(_chain)
 ]
 
 logging.info("Creating churn_agent...")
