@@ -103,13 +103,10 @@ with response_container:
                 avatar_style="thumbs"
             )
 
-if len(os.listdir("app/tmp")) != 1:
-    st.download_button(
-        label="Baixar último relatório",
-        data=open(f"app/tmp/report.pdf", "rb").read(),
-        file_name=f"{uuid4()}.pdf",
-        mime="application/pdf"
-    )
-
-    os.remove("app/tmp/report.pdf")
-    
+        if len(os.listdir("app/tmp")) != 1:
+            st.download_button(
+                label="Baixar último relatório",
+                data=open(f"app/tmp/report.pdf", "rb").read(),
+                file_name=f"report.pdf",
+                mime="application/pdf"
+            )
