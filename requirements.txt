@@ -1,0 +1,12 @@
+langgraph-supervisor
+langchain_community
+langchain-openai
+langchain-groq
+load_dotenv
+pandas
+streamlit
+streamlit_chat
+docling
+sentence-transformers
+faiss-cpu
+pdf-kit

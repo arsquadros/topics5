@@ -1,0 +1,21 @@
+Nome do Cliente,Funcionário Responsável,Tickets Abertos no Último Mês,Setor do Cliente,Tempo Médio de Resposta do Suporte (horas),Taxa de Renovação de Contrato (%),Satisfação com Treinamento (%)
+Banco Alpha,Ana Silva,2,Financeiro,2,90,95
+Seguros Beta,Carlos Oliveira,5,Financeiro,5,70,80
+Investimentos Gama,Mariana Souza,1,Financeiro,1,95,98
+Financeira Delta,Pedro Santos,3,Financeiro,3,85,90
+Supermercado Estrela,Juliana Pereira,0,Varejo,1,98,99
+Loja Moda Linda,Ricardo Costa,4,Varejo,4,80,85
+Eletrodomésticos Novo Lar,Fernanda Rodrigues,2,Varejo,2,92,96
+Livraria Saber,Lucas Gonçalves,6,Varejo,6,75,82
+Tech Solutions,Gustavo Almeida,1,Tecnologia,1,94,97
+Inova Sistemas,Camila Ferreira,3,Tecnologia,3,88,92
+Digital World,Rafael Barbosa,5,Tecnologia,5,82,88
+Code Masters,Beatriz Castro,4,Tecnologia,4,78,85
+Hospital Vida Plena,Bruno Ribeiro,0,Saúde,1,96,98
+Clínica Bem Estar,Letícia Martins,2,Saúde,2,90,94
+Laboratório Exames Já,Thiago Nunes,3,Saúde,3,85,90
+Farmácia Saúde Total,Isabela Cavalcanti,5,Saúde,5,80,86
+Universidade Saber Mais,Diego Rocha,1,Educação,1,95,97
+Escola Crescer,Aline Cunha,2,Educação,2,92,95
+Instituto Aprender,Felipe Melo,4,Educação,4,88,91
+Cursos Online Futuro,Vanessa Guedes,3,Educação,3,82,88
