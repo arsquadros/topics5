@@ -166,7 +166,7 @@ def validate_user_tool(conversation_chain=None) -> StructuredTool:
         try:
             found = False
 
-            df = pd.read_csv("app/supervisor/documents/usuarios_chatbot.csv")
+            df = pd.read_csv("app/experts/agent_churn/documents/usuarios_chatbot.csv")
             
             for e in df["E-mail"].tolist():
                 if e == email:
