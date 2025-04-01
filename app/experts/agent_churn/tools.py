@@ -93,12 +93,13 @@ def generate_report_tool(conversation_chain) -> StructuredTool:
             """.replace("\t", "")
             result = conversation_chain.invoke({"question": message, "chat_history": []})["answer"]
             result = result.replace("```html\n", "").replace("```", "")
-            name = f"report.pdf"
+            name = "report.pdf"
 
             html = open("app/layout/template_layout_report", "r").read().replace("[INSERT]", result)
 
-            pdfkit.from_string(html, f"app/tmp/{name}")
-
+            res = pdfkit.from_string(html, f"app/tmp/{name}")
+            if type(res) == bool:
+                name = "Error"
         except Exception as e:
             logging.error(f"ERROR: could generate report for query '{query}'. Error '{e}' Returning default answer.")
         else:
