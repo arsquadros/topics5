@@ -1,16 +1,27 @@
 from app.experts.agent_churn.churn_agent import churn_agent
 from app.utils import utils
 
-from langchain_core.messages import AIMessage
+import os
 
 from dotenv import load_dotenv
-
-config = {"configurable": {"thread_id": "abc123"}}
 
 import streamlit as st
 from streamlit_chat import message
 
+
+def get_pdf_file_content(pdf_file_path) -> (bytes | str):
+    if os.path.exists(pdf_file_path):
+        with open(pdf_file_path, "rb") as pdf_file:
+            PDFbyte = pdf_file.read()
+    else:
+        PDFbyte = ""
+    return PDFbyte
+
+
+config = {"configurable": {"thread_id": "abc123"}}
+
 load_dotenv()
+
 response_container = st.container()
 container = st.container()
 
@@ -43,7 +54,6 @@ with container:
         if submit_button:
 
             try:
-                print("Before authentication")
                 if st.session_state["authentication"] == "":
                     input_content = {"messages": [{"role": "user", "content": "Olá, por favor me passe meu e-mail corporativo, a corversa só poderá começar assim que estiver autenticado."}]}
                     st.session_state["authentication"] = "asking_email"
@@ -66,8 +76,6 @@ with container:
                         input_content = {"messages": [{"role": "user", "content": "Validado com sucesso. Como posso ajudar?"}]}
                 elif st.session_state["authentication"] == "authenticated":
                     input_content = {"messages": [{"role": "user", "content": user_input}]}
-                
-                print("Before stream:", st.session_state["authentication"])
 
                 result = churn_agent.invoke(input=input_content, config=config)
 
@@ -76,6 +84,17 @@ with container:
             except Exception as e:
                 st.error(f"Erro ao processar a mensagem. Por favor, tente novamente. {e}")
                 st.stop()
+
+pdf_path = "app/tmp/report.pdf" # Replace with your PDF file path
+pdf_bytes = get_pdf_file_content(pdf_path)
+
+#if type(pdf_bytes) != str:
+st.download_button(
+    label="Baixar Relatório",
+    data=pdf_bytes,
+    file_name="report.pdf", # Optional: Set the download filename
+    mime="application/pdf",
+)
 
 with response_container:
     if st.session_state["agent_messages"]:

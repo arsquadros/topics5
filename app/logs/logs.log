@@ -959,3 +959,41 @@ INFO:root:Function generate_report_tool called with query=Risco de churn de todo
 INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 ERROR:root:ERROR: could generate report for query 'Risco de churn de todos os clientes'. Error '[Errno 2] No such file or directory: 'app/layout/template_layout_report'' Returning default answer.
 INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function generate_report_tool called with query=Risco de churn de todos os clientes. on agent.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+ERROR:root:ERROR: could generate report for query 'Risco de churn de todos os clientes.'. Error '[Errno 2] No such file or directory: 'app/layout/template_layout_report'' Returning default answer.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
