@@ -879,3 +879,83 @@ INFO:root:Loading OpenAI model for agent...
 INFO:root:Loading OpenAI model...
 INFO:root:Creating supervisor...
 INFO:root:Supervisor created successfully!
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Loading OpenAI model for agent...
+INFO:root:Loading OpenAI model for churn_agent...
+INFO:root:Loading FAISS in 'app/faiss_store'.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:faiss.loader:Loading faiss with AVX2 support.
+INFO:faiss.loader:Successfully loaded faiss with AVX2 support.
+INFO:faiss:Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+INFO:root:Creating churn_agent...
+INFO:root:churn_agent created successfully!
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function generate_report_tool called with query=AÁıes recomendadas para o cliente 'Supermercado Estrela'. on agent.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Resposta de relatÛrio da query 'AÁıes recomendadas para o cliente 'Supermercado Estrela'.': {'question': "\n                Gere um plano de aÁ„o estruturado para a seguinte query e os dados passados no final.\n                Acesse os descritores de serviÁos da empresa se necess·rio.\n\n                [BEGIN QUERY]\n                AÁıes recomendadas para o cliente 'Supermercado Estrela'.\n                [END QUERY]\n\n                [BEGIN DATA]\n                [begin file 1]\n\nNome do Cliente,A√ß√£o Recomendada,Prioridade,Data de Vencimento,Status\nSeguros Beta,Oferecer desconto na renova√ß√£o,Alta,2023-11-30,Pendente\nLoja Moda Linda,Realizar visita t√©cnica para otimiza√ß√£o do sistema,M√©dia,2023-12-15,Em andamento\nLivraria Saber,Priorizar suporte para resolu√ß√£o de problemas de acesso,Alta,2023-12-01,Pendente\nDigital World,Oferecer treinamento avan√ßado sobre integra√ß√£o com API,M√©dia,2023-12-20,Agendado\nFarm√°cia Sa√∫de Total,Apresentar estudo de caso de sucesso com solu√ß√£o similar,Baixa,2024-01-15,Pendente\nInstituto Aprender,Agendar reuni√£o para discutir novas necessidades,M√©dia,2023-12-10,Agendado\n\n[end file 1][begin file 2]\n\nNome do Cliente,Funcion√°rio Respons√°vel,Tickets Abertos no √öltimo M√™s,Setor do Cliente,Tempo M√©dio de Resposta do Suporte (horas),Taxa de Renova√ß√£o de Contrato (%),Satisfa√ß√£o com Treinamento (%)\nBanco Alpha,Ana Silva,2,Financeiro,2,90,95\nSeguros Beta,Carlos Oliveira,5,Financeiro,5,70,80\nInvestimentos Gama,Mariana Souza,1,Financeiro,1,95,98\nFinanceira Delta,Pedro Santos,3,Financeiro,3,85,90\nSupermercado Estrela,Juliana Pereira,0,Varejo,1,98,99\nLoja Moda Linda,Ricardo Costa,4,Varejo,4,80,85\nEletrodom√©sticos Novo Lar,Fernanda Rodrigues,2,Varejo,2,92,96\nLivraria Saber,Lucas Gon√ßalves,6,Varejo,6,75,82\nTech Solutions,Gustavo Almeida,1,Tecnologia,1,94,97\nInova Sistemas,Camila Ferreira,3,Tecnologia,3,88,92\nDigital World,Rafael Barbosa,5,Tecnologia,5,82,88\nCode Masters,Beatriz Castro,4,Tecnologia,4,78,85\nHospital Vida Plena,Bruno Ribeiro,0,Sa√∫de,1,96,98\nCl√\xadnica Bem Estar,Let√\xadcia Martins,2,Sa√∫de,2,90,94\nLaborat√≥rio Exames J√°,Thiago Nunes,3,Sa√∫de,3,85,90\nFarm√°cia Sa√∫de Total,Isabela Cavalcanti,5,Sa√∫de,5,80,86\nUniversidade Saber Mais,Diego Rocha,1,Educa√ß√£o,1,95,97\nEscola Crescer,Aline Cunha,2,Educa√ß√£o,2,92,95\nInstituto Aprender,Felipe Melo,4,Educa√ß√£o,4,88,91\nCursos Online Futuro,Vanessa Guedes,3,Educa√ß√£o,3,82,88\n\n[end file 2][begin file 3]\n\nNome do Cliente,Data da Intera√ß√£o,Tipo de Intera√ß√£o,Descri√ß√£o da Intera√ß√£o,Funcion√°rio Respons√°vel\nBanco Alpha,2024-10-26,E-mail,Reuni√£o de acompanhamento do projeto,Ana Silva\nSeguros Beta,2024-10-27,Telefone,Suporte t√©cnico para integra√ß√£o de sistema,Carlos Oliveira\nInvestimentos Gama,2024-10-28,Chat,D√∫vidas sobre nova funcionalidade,Mariana Souza\nFinanceira Delta,2024-10-29,E-mail,Envio de relat√≥rio de desempenho,Pedro Santos\nSupermercado Estrela,2024-10-30,Chat,Solicita√ß√£o de treinamento adicional,Juliana Pereira\nLoja Moda Linda,2024-10-31,Telefone,Reclama√ß√£o sobre lentid√£o do sistema,Ricardo Costa\nEletrodom√©sticos Novo Lar,2024-11-01,E-mail,Apresenta√ß√£o de novas solu√ß√µes,Fernanda Rodrigues\nLivraria Saber,2024-11-02,Chat,Problemas com acesso √\xa0 base de dados,Lucas Gon√ßalves\nTech Solutions,2024-11-03,Telefone,Negocia√ß√£o para renova√ß√£o de contrato,Gustavo Almeida\nInova Sistemas,2024-11-04,E-mail,Solicita√ß√£o de suporte urgente,Camila Ferreira\nDigital World,2024-11-05,Chat,D√∫vidas sobre integra√ß√£o com API,Rafael Barbosa\nCode Masters,2024-11-06,Telefone,Reclama√ß√£o sobre tempo de resposta do suporte,Beatriz Castro\nHospital Vida Plena,2024-11-07,E-mail,Apresenta√ß√£o de nova ferramenta de gest√£o,Bruno Ribeiro\nCl√\xadnica Bem Estar,2024-11-08,Chat,Solicita√ß√£o de informa√ß√µes sobre treinamento,Let√\xadcia Martins\nLaborat√≥rio Exames J√°,2024-11-09,Telefone,Problemas com acesso ao sistema de relat√≥rios,Thiago Nunes\nFarm√°cia Sa√∫de Total,2024-11-10,E-mail,Envio de proposta para novo projeto,Isabela Cavalcanti\nUniversidade Saber Mais,2024-11-11,Chat,D√∫vidas sobre integra√ß√£o com plataforma EAD,Diego Rocha\nEscola Crescer,2024-11-12,Telefone,Solicita√ß√£o de suporte para configura√ß√£o de sistema,Aline Cunha\nInstituto Aprender,2024-11-13,E-mail,Reuni√£o para discutir resultados do projeto,Felipe Melo\nCursos Online Futuro,2024-11-14,Chat,D√∫vidas sobre acesso a novos conte√∫dos,Vanessa Guedes\n\n[end file 3]\n                [END DATA]\n            ", 'chat_history': [], 'answer': "### Plano de AÁ„o Estruturado para o Cliente 'Supermercado Estrela'\n\n#### 1. Resumo das Necessidades do Cliente\n- O Supermercado Estrela solicitou um treinamento adicional em 30 de outubro de 2024, indicando uma necessidade de aprimoramento no uso dos sistemas ou ferramentas que est„o sendo utilizados.\n\n#### 2. AÁıes Recomendadas\nCom base nas informaÁıes do cliente e nas aÁıes recomendadas anteriormente, as seguintes aÁıes devem ser implementadas:\n\n| AÁ„o Recomendada                               | Prioridade | Data de Vencimento | Status   |\n|------------------------------------------------|------------|---------------------|----------|\n| Oferecer treinamento adicional no uso do sistema | Alta       | 2024-11-30          | Pendente |\n\n#### 3. Desdobramentos\n- **Respons·vel:** Juliana Pereira\n- **Tipo de InteraÁ„o:** Chat\n- **MÈtodo de Treinamento:** Pode incluir sessıes ao vivo, tutoriais gravados e material de leitura complementar para facilitar a assimilaÁ„o do conte˙do.\n\n#### 4. Follow-Up\n- Agendar um follow-up com o cliente apÛs a realizaÁ„o do treinamento para avaliar a efic·cia e a satisfaÁ„o com o serviÁo prestado. O follow-up deve ser agendado para uma data n„o superior a duas semanas apÛs o treinamento.\n\n#### 5. Monitoramento\n- Monitorar a taxa de resoluÁ„o de tickets e a satisfaÁ„o com o suporte e treinamento. Garantir que Juliana Pereira se mantenha atualizada sobre a satisfaÁ„o do cliente e quaisquer novas necessidades que possam surgir.\n\nEsse plano visa garantir que o Supermercado Estrela receba o suporte necess·rio para maximizar o uso e a efic·cia de seus sistemas, elevando, assim, a satisfaÁ„o e a qualidade do serviÁo prestado.", 'source_documents': [Document(id='ac3cecdb-4fc8-4002-a2e3-bcc1f1ad23ad', metadata={'source': 'app/experts/agent_churn/documents/RAG\\rag.pdf'}, page_content='- * **Desenvolvimento de Aplicativos:** Desenvolvemos aplicativos mÛveis e web intuitivos e eficientes, que proporcionam uma experiÍncia excepcional aos usu·rios e impulsionam o engajamento com a marca.\n- * **IntegraÁ„o de Sistemas:** Integramos sistemas legados e plataformas de terceiros, garantindo a interoperabilidade e o fluxo contÌnuo de dados entre os diferentes sistemas da empresa.\n- **Suporte e ManutenÁ„o Especializados:**\n- * **Suporte TÈcnico:** Oferecemos suporte tÈcnico completo para garantir o funcionamento contÌnuo dos sistemas e aplicativos de nossos clientes, com tempos de resposta r·pidos e soluÁıes eficazes.\n- * **ManutenÁ„o Preventiva e Corretiva:** Realizamos manutenÁıes preventivas para evitar problemas e manutenÁıes corretivas para solucionar falhas e garantir a estabilidade dos sistemas.')]}
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Function generate_report_tool called with query=Risco de churn de todos os clientes on agent.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+ERROR:root:ERROR: could generate report for query 'Risco de churn de todos os clientes'. Error '[Errno 2] No such file or directory: 'app/layout/template_layout_report'' Returning default answer.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
