@@ -82,6 +82,7 @@ with container:
 
                 result = churn_agent.invoke(input=input_content, config=config)
 
+                print("Result:", result["messages"][-1].content)
                 if "<html>" in result["messages"][-1].content:
                     match = re.search(r"<html>(.*?)</html>", result["messages"][-1].content, re.DOTALL)
                     
@@ -91,6 +92,8 @@ with container:
                     
                     if document:
                         pdf_bytes = pdfkit.from_string(document)
+                    
+                    print("Document: ", document)
 
                 st.session_state.person_messages.append(user_input)
                 st.session_state.agent_messages.append(result["messages"][-1].content)
