@@ -2,6 +2,8 @@ from app.experts.agent_churn.churn_agent import churn_agent
 from app.utils import utils
 
 import os
+import pdfkit
+import re
 
 from dotenv import load_dotenv
 
@@ -78,6 +80,16 @@ with container:
                     input_content = {"messages": [{"role": "user", "content": user_input}]}
 
                 result = churn_agent.invoke(input=input_content, config=config)
+
+                if "<html>" in result["messages"][-1].content:
+                    match = re.search(r"<html>(.*?)</html>", result["messages"][-1].content, re.DOTALL)
+                    
+                    document = None
+                    if match:
+                        document = match.group(1)  # Return the content inside the tags
+                    
+                    if document:
+                        pdfkit.from_string(document, output_path="app/tmp/report.pdf")
 
                 st.session_state.person_messages.append(user_input)
                 st.session_state.agent_messages.append(result["messages"][-1].content)
