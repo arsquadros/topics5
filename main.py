@@ -20,6 +20,7 @@ def get_pdf_file_content(pdf_file_path) -> (bytes | str):
     return PDFbyte
 
 
+pdf_bytes = bytes([0])
 config = {"configurable": {"thread_id": "abc123"}}
 
 load_dotenv()
@@ -89,16 +90,13 @@ with container:
                         document = match.group(1)  # Return the content inside the tags
                     
                     if document:
-                        pdfkit.from_string(document, output_path="app/tmp/report.pdf")
+                        pdf_bytes = pdfkit.from_string(document)
 
                 st.session_state.person_messages.append(user_input)
                 st.session_state.agent_messages.append(result["messages"][-1].content)
             except Exception as e:
                 st.error(f"Erro ao processar a mensagem. Por favor, tente novamente. {e}")
                 st.stop()
-
-pdf_path = "app/tmp/report.pdf" # Replace with your PDF file path
-pdf_bytes = get_pdf_file_content(pdf_path)
 
 #if type(pdf_bytes) != str:
 st.download_button(
